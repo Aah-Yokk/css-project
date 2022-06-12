@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Blaka+Hollow&family=Monofett&family=Press+Start+2P&display=swap');
+body {
+    height:100vh;
+    width:100vw;
+    display:flex;
+    flex-direction:column;
+    margin:0;
+  
+}
+
+#robo {
+    max-width:70px;
+    height:auto;
+    border-radius:45%;
+    border:5px solid antiquewhite;
+    float:left;
+}
+#space {
+    margin:0;
+    float:left;
+    margin-top:10px;
+    font: size 25px;
+    color:lightcoral;
+    font-family:'Press Start 2P', cursive;
+}
+ul {
+ margin:15px;
+ padding:0px;
+ list-style:none;
+ display:flex;
+ gap:30px;
+}
+a {
+ text-decoration: none;
+ font-size:25px;
+ color:orchid;
+ font-family:'Blaka Hollow', cursive;
+}
+a:hover{
+    color:brown;
+}
+.top{
+    display:flex;
+    justify-content:space-between;
+    background-color:#1A1110;
+}
+#foot{
+    color:blanchedalmond;
+    text-align:center;
+    font-family:'Monofett', cursive;
+    font-size:35px;
+}
+.wifi{
+    background-image: url(img/wifi.webp);
+    padding:10px;
+    background-position-y: bottom;
+    margin-bottom:-30px;
+}
+.next{
+    display:flex;
+    background:#1A1110;
+    
+}
+.boss{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+#hea{
+    color:white;
+    font-family:'Press Start 2P', cursive;
+    font-size:20px;
+    margin:0px;
+    padding:0px;
+}
+#some-text{
+    color:white;
+    margin:0px;
+    padding:0px;
+    padding-left:100px;
+}
+button{
+    border-radius:10px;
+    padding:7px 5px;
+    background-color:aqua;
+    font-weight:bold;
+    cursor:pointer;
+}
+button:hover{
+    background-color:#3882F6;
+    color:white;
+}
+.button{
+    padding-left:100px;
+}
+#poo{
+    max-width:350px;
+    border-radius:35%;
+}
+.space-photo{
+  display:flex;
+  justify-content:flex-end;
+  width:100vw;
+
+}
+.random{
+    background-image:url(img/shootingstar.webp);
+    background-size:cover;
+    background-position-y: center;
+}
+.we{
+   background-image: url(img/dog.webp);
+   padding-top:1%;
+   background-position-y:center;
+   background-repeat:repeat-y;
+   background-size:contain;
+}
+#w1{
+    color:white;
+}
+img{
+    width:150px;
+    height:100px;
+
+}
+.img{
+    display:flex;
+    justify-content:space-evenly;
+}
+.kid{
+    text-align:center;
+    width:160px;
+    display:inline-block;
+}
+
+#one{
+    height: 87px;
+}
+#two{
+    height:90px;
+}
+p{
+    color:white;
+}
