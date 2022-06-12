@@ -103,6 +103,10 @@ button:hover{
   width:100vw;
 
 }
+#kidd{
+    width:300px;
+    height:250px;
+}
 .random{
     background-image:url(img/shootingstar.webp);
     background-size:cover;
@@ -141,4 +145,56 @@ img{
 }
 p{
     color:white;
+}
+.jug{
+    display:flex;
+    justify-content:center;
+    background-image:url(img/bluestar.webp);
+    background-size: 100vw 100px;
+}
+#namu{
+    text-align: right;
+}
+.end{
+    display:flex;;
+    height:200px;
+    justify-content:center;
+}
+.help{
+    background-color:#3882F6;
+    display:flex;
+    margin:30px;
+    padding:20px 80px;
+    border-radius:2%;
+    width:500px;
+    gap:40px;
+    justify-content:center;
+}
+#h3{
+    color:white;
+    text-align :center;
+    padding:0px;
+    margin:0px;
+}
+#ula{
+    font-size:14px;
+    padding:0px;
+    margin:0px;
+}
+#lol{
+    border-color:white;
+    background-color:#3882F6;
+    font-size:10px;
+    color:white;
+    padding:10px 15px;
+}
+.another{
+    display:flex;
+    flex-direction:column;
+}
+.footer{
+    background-image:url(img/kid.webp);
+    display:flex;
+    justify-content:center;
+    margin-top:auto;
 }
